@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppM</string>
+    <string name="accessibility_service_label">Permiso de accesibilidad para AppM</string>
+    <string name="accessibility_service_description">Obtener SMS</string>
+    <string name="pistachos">Pistachos:</string>
+    <string name="foto_pistachos">foto_pistachos</string>
+</resources>
