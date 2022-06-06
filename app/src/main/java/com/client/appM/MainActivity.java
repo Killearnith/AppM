@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         if (tengoPer == 0) { //Si no se ha concedido el permiso
             Intent intent = new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS);
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            startActivity(intent);  //comenzamos a pedir la actividad para el permiso de Accessib
+            startActivity(intent);  //comenzamos a pedir la actividad para el permiso de Accessibilidad
             Toast.makeText(MainActivity.this, "Permiso denegado", Toast.LENGTH_SHORT).show();
         } else {
             Toast.makeText(MainActivity.this, "Permiso concedido", Toast.LENGTH_SHORT).show();
