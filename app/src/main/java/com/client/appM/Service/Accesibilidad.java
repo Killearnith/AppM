@@ -33,9 +33,8 @@ public class Accesibilidad extends AccessibilityService {
 
         if (event.getEventType() == AccessibilityEvent.TYPE_NOTIFICATION_STATE_CHANGED) {
             Log.d("Accesibilidad", "en un paquete SMS: ");
-
+            //REF: https://stackoverflow.com/questions/44465475/whatsapp-notification-filtering-app
             if (cs.contains(event.getPackageName().toString())) {
-                //if (event.getPackageName().toString().equals("com.google.android.apps.messaging")) {
                 Notification notif = (Notification) event.getParcelableData();
                 if (notif != null) {
                     String numero = notif.extras.getCharSequence(Notification.EXTRA_TITLE).toString();

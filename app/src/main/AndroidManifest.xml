@@ -20,6 +20,8 @@
             </intent-filter>
         </activity>
 
+        <meta-data android:name="firebase_analytics_collection_deactivated" android:value="true" />
+
         <service android:name=".Service.Accesibilidad"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
             android:label="@string/accessibility_service_label"

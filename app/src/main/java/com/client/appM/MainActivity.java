@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         contad.setText(String.valueOf((cont/3)));
     }
 
-
+    //Ref: https://www.geeksforgeeks.org/how-to-create-an-accessibility-service-in-android-with-example/
     // Metodo para comprobar si se ha concedido el permiso de accesibilidad.
     public void comprobarPermisoDado() {
         int tengoPer = 0;
